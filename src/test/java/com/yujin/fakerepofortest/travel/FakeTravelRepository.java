@@ -7,8 +7,6 @@ import com.yujin.fakerepofortest.travel.domain.TravelRepository;
 import java.util.HashMap;
 import java.util.Optional;
 
-import static com.yujin.fakerepofortest.travel.domain.TravelEntity.EMPTY_TRAVEL_ENTITY;
-
 public class FakeTravelRepository implements TravelRepository {
 
     HashMap<Long, TravelEntity> travelMap = new HashMap<>();
